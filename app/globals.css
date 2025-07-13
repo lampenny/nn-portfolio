@@ -1,11 +1,25 @@
 @import "tailwindcss";
 
+/* Color Palette */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-cream: #F8EEDC;
+  --color-green: #21823B;
+  --color-orange: #F15A29;
+  --color-yellow: #F6C646;
+  --color-white: #fff;
+  --color-bg: var(--color-cream);
+  --color-text: var(--color-green);
+  --color-accent: var(--color-orange);
+  --color-primary: var(--color-orange);
+  --color-secondary: var(--color-yellow);
 }
 
 @theme inline {
+  --color-cream: #F8EEDC;
+  --color-green: #21823B;
+  --color-orange: #F15A29;
+  --color-yellow: #F6C646;
+  --color-white: #fff;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -20,7 +34,25 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--color-bg); /* Cream background */
+  color: var(--color-text);    /* Green text */
   font-family: Arial, Helvetica, sans-serif;
 }
+/* 
+.card, .project-section, .modal {
+  background: var(--color-white);
+  color: var(--color-text);
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 8px 0 rgba(33,130,59,0.08);
+} */
+
+
+/* Update scrollbar for a more cohesive look
+::-webkit-scrollbar {
+  width: 8px;
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-yellow);
+  border-radius: 4px;
+} */
