@@ -1,11 +1,14 @@
-import { Skill } from "./skillsData";
+import { Skill } from "../skillsData";
 
 interface DigitalSkillsProps {
   skills: Skill[];
   title?: string;
 }
 
-export default function DigitalSkills({ skills, title = "Digital Skills" }: DigitalSkillsProps) {
+export default function DigitalSkills({
+  skills,
+  title = "Digital Skills",
+}: DigitalSkillsProps) {
   const renderRatingDots = (rating: number) => {
     const dots = [];
     for (let i = 1; i <= 10; i++) {
@@ -38,12 +41,10 @@ export default function DigitalSkills({ skills, title = "Digital Skills" }: Digi
             <span className="text-sm font-medium text-gray-600 w-40">
               {skill.name}
             </span>
-            <div className="flex gap-1">
-              {renderRatingDots(skill.rating)}
-            </div>
+            <div className="flex gap-1">{renderRatingDots(skill.rating)}</div>
           </div>
         ))}
       </div>
     </div>
   );
-} 
+}

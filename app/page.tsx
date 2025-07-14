@@ -51,13 +51,13 @@ export default function Home() {
           <div>
             <div className="pb-5">
               <h1 className="font-bold text-4xl text-color-green">
-                Hi, I'm Nana, an E-commerce & Digital Marketing Specialist.
+                Hi, I&apos;m Nana, an E-commerce & Digital Marketing Specialist.
               </h1>
 
               <p className="text-2xl text-gray-600">
                 Originally from Japan and now based in London, I have eight
                 years of experience in analysing and growing brands and
-                e-commerce businesses. I'm passionate about data-driven
+                e-commerce businesses. I&apos;m passionate about data-driven
                 strategy, tennis and discovering new places!
               </p>
 
