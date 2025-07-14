@@ -24,10 +24,6 @@ export const projects = [
         url: "https://www.instagram.com/mqdiner/",
         label: "MQ's Instagram",
       },
-      {
-        url: "https://basketballking.jp/news/world/nba/20240927/507533.html",
-        label: "Press Release",
-      },
     ],
   },
   {
@@ -75,6 +71,10 @@ export const projects = [
       {
         url: "https://www.rakuten.ne.jp/gold/rakutensportszone/popup2024/",
         label: "Pop-up web page",
+      },
+      {
+        url: "https://basketballking.jp/news/world/nba/20240927/507533.html",
+        label: "Press Release",
       },
     ],
   },
